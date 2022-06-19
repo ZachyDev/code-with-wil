@@ -260,13 +260,16 @@ progress[value]::-webkit-progress-value {
   display: flex;
   justify-content: space-between;
 }
+#lang-percent b {
+  font-weight: 500;
+}
 .page3-moreabout {
   background: linear-gradient(#7719ec, #4e1ea7);
   width: 85vw;
   margin: auto;
   margin-top: 20px;
   border-radius: 5px;
-  height: 20vh;
+  height: fit-content;
 }
 .moreaboutme {
   background: white;
@@ -276,4 +279,39 @@ progress[value]::-webkit-progress-value {
   width: fit-content;
   font-size: 25px;
   font-weight: 600;
+}
+
+#moreabt-p1 {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+.moreabt-boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  height: fit-content;
+  line-height: 23px;
+}
+
+.moreabt-boxes .box1 {
+  width: 30%;
+  height: 20px;
+  background: rgba(58, 58, 58, 0.25);
+  height: fit-content;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+}
+.moreabt-boxes .box2 {
+  width: 30%;
+  height: 20px;
+  background: rgba(58, 58, 58, 0.25);
+  height: fit-content;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
 }
