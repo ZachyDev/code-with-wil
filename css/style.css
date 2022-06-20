@@ -107,8 +107,9 @@ audio {
 }
 
 .navbar {
+  position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 20px;
   background: linear-gradient(#7719ec, #4e1ea7);
   height: 10vh;
   width: 100vw;
@@ -116,7 +117,6 @@ audio {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  position: -webkit-sticky; /* Safari */
 }
 .red-hat {
   border-radius: 50%;
@@ -285,8 +285,18 @@ progress[value]::-webkit-progress-value {
   text-align: center;
   color: white;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 1px;
+}
+.moreabt-audio-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#moreabt-audio {
+  width: 81vw;
 }
 .moreabt-boxes {
   display: flex;
@@ -294,10 +304,12 @@ progress[value]::-webkit-progress-value {
   justify-content: space-evenly;
   margin-top: 20px;
   height: fit-content;
-  line-height: 23px;
+  line-height: 22px;
+  font-size: 16px;
 }
 
 .moreabt-boxes .box1 {
+  border-radius: 30px 15px;
   width: 30%;
   height: 20px;
   background: rgba(58, 58, 58, 0.25);
@@ -307,11 +319,33 @@ progress[value]::-webkit-progress-value {
   padding: 20px 30px;
 }
 .moreabt-boxes .box2 {
+  border-radius: 30px 15px;
   width: 30%;
   height: 20px;
-  background: rgba(58, 58, 58, 0.25);
+  background: rgba(58, 58, 58, 0.781);
   height: fit-content;
   color: white;
   text-align: center;
   padding: 20px 30px;
+}
+
+.page3-last-flex {
+  display: flex;
+  width: 81vw;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.hire-me {
+  padding: 10px 20px;
+  background: #ffd737;
+  border-radius: 5px;
+  height: fit-content;
+}
+.hire-me a {
+  font-weight: 600;
+  color: #000000;
 }
