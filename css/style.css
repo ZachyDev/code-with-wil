@@ -457,12 +457,12 @@ progress[value]::-webkit-progress-value {
   padding: 20px;
   color: #3f3f3f;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid rgb(126, 126, 126);
   width: 40vw;
   margin-top: 20px;
 }
 .page6-profession {
-  background: #cfcbcb;
+  background: #e4e4e4;
   width: 85vw;
   margin: auto;
   height: fit-content;
@@ -476,4 +476,56 @@ progress[value]::-webkit-progress-value {
   width: fit-content;
   font-size: 25px;
   font-weight: 600;
+}
+
+.page7-footer {
+  background: #1a2446;
+  width: 85vw;
+  margin: auto;
+  height: fit-content;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white;
+}
+.footer-header {
+  background: #141c3a;
+  margin: auto;
+  padding: 20px 50px;
+  border-radius: 0 0 10px 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 90%;
+  text-align: center;
+  align-items: center;
+}
+
+.page7-footer .footer-header #let {
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(#7719ec, #4e1ea7);
+  color: #ffd737;
+  padding: 10px 20px;
+}
+#contact-icons {
+  margin: auto;
+  margin-top: 7px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+#contact-icons #icon-ellipse {
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  color: #141c3a;
 }
