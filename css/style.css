@@ -37,13 +37,24 @@ img {
   font-weight: 600;
   font-size: 22px;
 }
+
 .page1 p:nth-of-type(2) {
   font-weight: 600;
   font-size: 90px;
   margin-top: 5px;
 }
+
 .page1 p:nth-of-type(2) span {
   font-weight: 300;
+}
+@media all and (max-width: 768px) {
+  .page1 p:first-of-type {
+    font-size: 20px;
+  }
+  .page1 p:nth-of-type(2) {
+    font-size: 55px;
+    padding: 0 10px 0 10px;
+  }
 }
 .page1 p:nth-of-type(3),
 .page1 p:nth-of-type(4) {
