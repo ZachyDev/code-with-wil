@@ -432,13 +432,14 @@ progress[value]::-webkit-progress-value {
   transition: ease-in-out 0.3s;
 }
 
-.page5-profession {
+.page5-education {
   background: #141c3a;
   width: 85vw;
   margin: auto;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   height: fit-content;
+  padding-bottom: 25px;
 }
 .education {
   background: #4e1ea7;
@@ -455,8 +456,24 @@ progress[value]::-webkit-progress-value {
   background: white;
   padding: 20px;
   color: #3f3f3f;
-  height: 40vh;
+  height: auto;
   border: 1px solid black;
   width: 40vw;
   margin-top: 20px;
+}
+.page6-profession {
+  background: #cfcbcb;
+  width: 85vw;
+  margin: auto;
+  height: fit-content;
+  padding-bottom: 25px;
+}
+.professional-path {
+  background: white;
+  margin: auto;
+  padding: 10px 50px;
+  border-radius: 0 0 10px 10px;
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 600;
 }
