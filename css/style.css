@@ -159,8 +159,9 @@ audio {
     height: 40px;
   }
 }
-.navbar {
-  position: -webkit-sticky; /* Safari */
+
+.navlist {
+ 
   position: sticky;
   top: 0;
   background: linear-gradient(#7719ec, #4e1ea7);
@@ -169,7 +170,21 @@ audio {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 20px; 
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #0074D9; 
+}
+.navlist li a {
+  /* margin-left:-20px; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: none;
 }
 @media all and (max-width: 768px) {
   .navbar {
