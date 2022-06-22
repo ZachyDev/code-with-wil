@@ -255,7 +255,7 @@ audio {
   justify-content: center;
   align-items: center;
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 #nav-menu-icons #icon-nav .fa {
   color: white;
