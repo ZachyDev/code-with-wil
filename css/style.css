@@ -717,6 +717,23 @@ progress[value]::-webkit-progress-value {
   text-align: center;
   align-items: center;
 }
+@media all and (max-width: 768px) {
+  .page7-footer .footer-header {
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 90vw;
+    justify-content: center;
+    font-size: 15px;
+  }
+}
+#interested {
+  line-height: 25px;
+}
+@media all and (max-width: 768px) {
+  #interested {
+    line-height: normal;
+  }
+}
 
 .page7-footer .footer-header #let {
   border: 2px solid;
@@ -724,6 +741,12 @@ progress[value]::-webkit-progress-value {
   border-image-source: linear-gradient(#7719ec, #4e1ea7);
   color: #ffd737;
   padding: 10px 20px;
+}
+@media all and (max-width: 768px) {
+  .page7-footer .footer-header #let {
+    margin-top: 7px;
+    padding: 7px 15px;
+  }
 }
 .red-hat-2 {
   border-radius: 50%;
