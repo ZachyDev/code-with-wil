@@ -47,6 +47,7 @@ img {
   font-weight: 600;
   font-size: 90px;
   margin-top: 5px;
+  line-height: 53px;
 }
 
 .page1 p:nth-of-type(2) span {
