@@ -172,7 +172,8 @@ audio {
 @media all and (max-width: 768px) {
   .navbar {
     position: fixed;
-    bottom: 0;
+    top: 500px;
+    align-self: flex-end;
   }
 }
 .red-hat-1 {
