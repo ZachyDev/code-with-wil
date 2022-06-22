@@ -306,6 +306,7 @@ audio {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 #hex-box span {
   font-weight: 600;
@@ -531,6 +532,11 @@ progress[value]::-webkit-progress-value {
   border: 1px solid #6b6b6b;
   border-radius: 10px;
 }
+@media all and (max-width: 768px) {
+  .page4-boxes {
+    flex-direction: column;
+  }
+}
 .page4-boxes #box1 {
   width: 27vw;
   border-radius: 10px 0 0 10px;
@@ -541,15 +547,28 @@ progress[value]::-webkit-progress-value {
   padding: 25px 40px;
   text-align: center;
 }
+@media all and (max-width: 768px) {
+  .page4-boxes #box1 {
+    border: none;
+    border-bottom: 1px solid #6b6b6b;
+    border-radius: 0;
+  }
+}
 .page4-boxes #box2 {
   width: 27vw;
   border-radius: 0;
-  border-right: 1px solid #6b6b6b;
+  border-right: 1px solid #dbdbdb;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 25px 40px;
   text-align: center;
+}
+@media all and (max-width: 768px) {
+  .page4-boxes #box2 {
+    border: none;
+    border-bottom: 1px solid #6b6b6b;
+  }
 }
 .page4-boxes #box3 {
   width: 27vw;
@@ -560,13 +579,21 @@ progress[value]::-webkit-progress-value {
   padding: 25px 40px;
   text-align: center;
 }
-
+@media all and (max-width: 768px) {
+  .page4-boxes #box1,
+  .page4-boxes #box2,
+  .page4-boxes #box3 {
+    width: 100%;
+  }
+}
 .project-boxes {
   width: 81vw;
   justify-content: space-between;
   margin: auto;
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .project-boxes .box1 {
   width: 25vw;
@@ -578,6 +605,12 @@ progress[value]::-webkit-progress-value {
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 10px;
+}
+@media all and (max-width: 768px) {
+  .project-boxes .box1 {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .project-name {
