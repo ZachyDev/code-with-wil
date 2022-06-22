@@ -672,6 +672,11 @@ progress[value]::-webkit-progress-value {
   height: fit-content;
   padding: 0 80px 25px 80px;
 }
+@media all and (max-width: 768px) {
+  .page6-profession {
+    padding: 0 20px 25px 20px;
+  }
+}
 .professional-path {
   background: white;
   margin: auto;
@@ -680,6 +685,14 @@ progress[value]::-webkit-progress-value {
   width: fit-content;
   font-size: 25px;
   font-weight: 600;
+  text-align: center;
+}
+@media all and (max-width: 768px) {
+  .professional-path {
+    padding: 10px 20px;
+    width: 80vw;
+    font-size: 23px;
+  }
 }
 
 .page7-footer {
