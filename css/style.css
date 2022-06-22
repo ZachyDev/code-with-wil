@@ -170,7 +170,7 @@ audio {
   padding: 10px 20px;
 }
 
-.red-hat {
+.red-hat-1 {
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -189,7 +189,10 @@ audio {
 }
 
 @media all and (max-width: 768px) {
-  .red-hat {
+  .red-hat-1 {
+    position: fixed;
+    top: 15px;
+    left: 10px;
     width: 40px;
     height: 40px;
   }
@@ -244,6 +247,7 @@ audio {
     display: none;
   }
 }
+/*mobile nav menu*/
 
 #nav-menu-icons {
   margin: auto;
@@ -603,6 +607,15 @@ progress[value]::-webkit-progress-value {
   border-image-source: linear-gradient(#7719ec, #4e1ea7);
   color: #ffd737;
   padding: 10px 20px;
+}
+.red-hat-2 {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  border: 3px solid white;
+  background: url(../images/red-hat.jpg);
+  background-size: contain;
+  animation: glowred 1s infinite alternate;
 }
 #contact-icons {
   margin: auto;
