@@ -169,7 +169,12 @@ audio {
   align-items: center;
   padding: 10px 20px;
 }
-
+@media all and (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+  }
+}
 .red-hat-1 {
   border-radius: 50%;
   width: 55px;
