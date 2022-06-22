@@ -662,7 +662,7 @@ progress[value]::-webkit-progress-value {
 }
 @media all and (max-width: 768px) {
   .bachelor-box {
-    width: 90%;
+    width: 95%;
   }
 }
 .page6-profession {
