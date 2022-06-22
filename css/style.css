@@ -608,7 +608,7 @@ progress[value]::-webkit-progress-value {
 }
 @media all and (max-width: 768px) {
   .project-boxes .box1 {
-    width: 80%;
+    width: 80vw;
     margin: auto;
   }
 }
@@ -635,6 +635,11 @@ progress[value]::-webkit-progress-value {
   height: fit-content;
   padding-bottom: 25px;
 }
+@media all and (max-width: 768px) {
+  .page5-education {
+    width: 95vw;
+  }
+}
 .education {
   background: #4e1ea7;
   color: white;
@@ -654,6 +659,11 @@ progress[value]::-webkit-progress-value {
   border: 1px solid rgb(126, 126, 126);
   width: 40vw;
   margin-top: 20px;
+}
+@media all and (max-width: 768px) {
+  .bachelor-box {
+    width: 90%;
+  }
 }
 .page6-profession {
   background: #f0f0f0;
