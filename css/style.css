@@ -286,9 +286,9 @@ audio {
   width: 50vw;
   margin: auto;
 }
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
   .page2 p:nth-of-type(2) {
-    width: 70vw;
+    width: 90vw;
   }
 }
 .about-hexagons {
@@ -350,6 +350,12 @@ audio {
 .skills-page .col1 P:last-of-type {
   font-weight: 600;
   margin-top: 10px;
+}
+
+@media all and (max-width: 768px) {
+  .skills-page .col1 #guy-audio {
+    width: 79vw;
+  }
 }
 
 .col2 {
@@ -433,6 +439,13 @@ progress[value]::-webkit-progress-value {
   font-size: 16px;
 }
 
+@media all and (max-width: 768px) {
+  .moreabt-boxes {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+
 .moreabt-boxes .box1 {
   border-radius: 30px 15px;
   width: 25vw;
@@ -453,7 +466,12 @@ progress[value]::-webkit-progress-value {
   text-align: center;
   padding: 20px 30px;
 }
-
+@media all and (max-width: 768px) {
+  .moreabt-boxes .box2,
+  .moreabt-boxes .box1 {
+    width: 300px;
+  }
+}
 .page3-last-flex {
   display: flex;
   width: 81vw;
@@ -463,12 +481,23 @@ progress[value]::-webkit-progress-value {
   margin: auto;
   margin-top: 20px;
 }
-
+@media all and (max-width: 768px) {
+  .page3-last-flex {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
 .hire-me {
   padding: 10px 20px;
   background: #ffd737;
   border-radius: 5px;
   height: fit-content;
+}
+@media all and (max-width: 768px) {
+  .hire-me {
+    width: fit-content;
+  }
 }
 .hire-me a {
   font-weight: 600;
@@ -477,7 +506,14 @@ progress[value]::-webkit-progress-value {
 
 .enjoy-some {
   margin-bottom: 80px;
+  text-align: center;
 }
+@media all and (max-width: 768px) {
+  .page3-last-flex audio {
+    width: 79vw;
+  }
+}
+
 .page4 {
   width: 81vw;
   background-color: white;
