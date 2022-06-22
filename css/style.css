@@ -35,7 +35,7 @@ img {
 }
 @media all and (max-width: 768px) {
   .page1 {
-    padding-top: 20px;
+    padding-top: 40px;
   }
 }
 .page1 p:first-of-type {
@@ -172,7 +172,7 @@ audio {
 @media all and (max-width: 768px) {
   .navbar {
     position: fixed;
-    top: 500px;
+    bottom: 0px;
     align-self: flex-end;
   }
 }
